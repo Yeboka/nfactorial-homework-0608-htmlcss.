@@ -1,0 +1,77 @@
+body {
+    background-image: url(Download\ From\ CBEditz.com.jpg);
+    background-size: cover;
+    background-color: #bb4434;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+h3 {
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #f3ebdb;
+    font-size: 30px;
+}
+
+p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #f3ebdb;
+    font-size: 20px;
+}
+
+#vinil {
+    animation: vinil 0s infinite linear;
+}
+
+@keyframes vinil {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.hidden {
+    cursor: pointer;
+    display: none ;
+  }
+
+#pause, #play, #prev, #next {
+    cursor: pointer;
+}
+
+#progressBar {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#progress {
+    width: 300px;
+}
+
+.times{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #f3ebdb;
+}
+
+.buttons {
+    margin: 10px;
+    width: 300px;
+    color: #f3ebdb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+

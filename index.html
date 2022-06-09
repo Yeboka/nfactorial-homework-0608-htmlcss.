@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/6f917e9db0.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+        
+    <body>
+        
+        <div id="info">
+            <h3>Stihnet Motor</h3>
+            <p>ZOLOTO</p>
+        </div>
+        <div id="vinil">
+            <img src="1f63f9eabee7a0fe80a252ea5eabef41.png" alt="OYU" width="500" height="500">
+        </div>
+
+        <div class="controlBar">
+            <div id="pausePlay">
+                <audio id="audio" src="Zoloto - Стихнет мотор.mp3" loop></audio>
+            </div>
+            <div class="times">
+                <div id="current"></div>
+                <div id="end"></div>
+            </div>
+            <div id="progressBar">
+                <input type="range" id="progress" min="0" max="" value="0">
+            </div>
+            <div class="buttons" >
+                <i class="far fa-arrow-alt-circle-left fa-3x" id="prev"></i>
+                <i class="far fa-play-circle fa-4x" id="play"></i>
+                <i class="far fa-pause-circle fa-4x hidden" id="pause"></i>
+                <i class="far fa-arrow-alt-circle-right fa-3x" id="next"></i>
+            </div>
+            
+        </div>
+        <script src= "script.js"></script>    </body>
+</html>
+
